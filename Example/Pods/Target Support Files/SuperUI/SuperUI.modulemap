@@ -1,0 +1,6 @@
+framework module SuperUI {
+  umbrella header "SuperUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
