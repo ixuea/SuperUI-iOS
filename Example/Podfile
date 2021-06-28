@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SuperUI_Example' do
+  pod 'SuperUI', :path => '../'
+
+  target 'SuperUI_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
